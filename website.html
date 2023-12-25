@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funngro Website Revamp</title>
+<style>
+  /* Basic Reset */
+  body, h1, h2, h3, p { margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; }
+
+  /* Navigation Bar Styles */
+  .navbar { background-color: #004A7F; overflow: hidden; }
+  .navbar a { float: left; display: block; color: white; text-align: center; padding: 14px 20px; text-decoration: none; }
+  .navbar a:hover { background-color: #007ACC; color: white; }
+
+  /* Hero Section Styles */
+  .hero { padding: 50px 20px; text-align: center; background: #007ACC; color: white; }
+  .hero h1 { font-size: 2.5rem; margin-bottom: 20px; }
+
+  /* Services Section Styles */
+  .services-section { background-color: #f7f7f7; padding: 40px 20px; text-align: center; }
+  .service { margin-bottom: 20px; padding: 20px; background: white; border: 1px solid #ddd; }
+  .service h3 { color: #333; margin-bottom: 10px; }
+
+  /* Footer Styles */
+  footer { background-color: #004A7F; color: white; text-align: center; padding: 20px 0; }
+
+  /* Button Styles */
+  .btn { display: inline-block; background: #333; color: white; padding: 10px 20px; margin: 10px 0; text-decoration: none; }
+  .btn-primary { background: #007ACC; }
+
+  /* GIF Styles */
+  .gif {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  /* Square Icons Styles */
+  .square-icon-container {
+    display: flex;
+    justify-content: center;
+  }
+  .square-icon {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    background-color: #07ab67; /* Change the background color */
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div id="home" class="hero">
+  <h1>Welcome to Funngro</h1>
+  <p>Inspiring the next generation of technology.</p>
+  <a href="#services" class="btn btn-primary">Explore Services</a>
+</div>
+
+<div id="about" class="services-section">
+  <h2>About Us</h2>
+  <p>Learn more about Funngro and our mission to drive innovation.</p>
+  
+  <!-- GIF placeholder (replace with your actual GIF URL) -->
+  <img src="URL_OF_YOUR_GIF" alt="Innovative Animation" class="gif">
+
+  <!-- Updated Get in Touch button to link to the main website -->
+  <a href="https://www.funngro.com/" class="btn" target="_blank">Get in Touch</a>
+</div>
+
+<div id="services" class="services-section">
+  <h2>Our Services</h2>
+  <div class="service">
+    <div class="square-icon-container">
+      <h3 class="square-icon">Graphic Design</h3>
+    </div>
+    <p>We provide creative graphic design solutions.</p>
+  </div>
+  <div class="service">
+    <div class="square-icon-container">
+      <h3 class="square-icon">Content Writing</h3>
+    </div>
+    <p>High-quality content writing services for all your needs.</p>
+  </div>
+  <div class="service">
+    <div class="square-icon-container">
+      <h3 class="square-icon">Data Entry</h3>
+    </div>
+    <p>Accurate and efficient data entry services.</p>
+  </div>
+  <div class="service">
+    <div class="square-icon-container">
+      <h3 class="square-icon">Voice Over</h3>
+    </div>
+    <p>Professional voice over services for various projects.</p>
+  </div>
+</div>
+
+<div id="contact" class="services-section">
+  <h2>Contact Us</h2>
+  <p>Reach out for collaboration opportunities and inquiries.</p>
+</div>
+
+<footer>
+  <p>© 2023 Funngro. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
